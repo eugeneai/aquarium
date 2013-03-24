@@ -1,6 +1,8 @@
 The peixe project
 =================
 
+(web page is at http://eugeneai.github.com/peixe/)
+
 Already so tired of filling in various document papers... Why not fill the in a forms and just print and sign. Or... save their field content in a database or QR-code? Later the data can be used again.
 
 Sometimes in a preparation of a draft treaty texts small error must be corrected in all its descendants simultaneously.
