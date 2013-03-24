@@ -19,7 +19,7 @@ requires = [
 setup(name='peixe',
       version='0.0',
       description='''Ontology based interactive inductive document data propagation engine.''',
-      long_description=README, # + '\n\n' +  CHANGES,
+      long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Pyramid",
