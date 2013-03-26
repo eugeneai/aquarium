@@ -28,3 +28,22 @@ OWL processing
 Wikipedia http://ru.wikipedia.org/wiki/Web_Ontology_Language
 
 fuxi https://code.google.com/p/fuxi/
+
+On-line HTML editors
+--------------------
+
+WISYWIG editor for HTML http://elrte.org/ It uses jquery abd jquery-ui.
+
+Xinha http://trac.xinha.org/
+
+
+Pyramid framework
+-----------------
+
+Wikipedia http://ru.wikipedia.org/wiki/Pyramid_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D1%80%D0%BA%D0%B0%D1%81)
+
+Web site http://www.pylonsproject.org/
+
+Single file application tutorial http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html
+
+Installation http://docs.pylonsproject.org/en/latest/docs/pyramid_install.html
