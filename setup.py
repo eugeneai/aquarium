@@ -9,7 +9,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 requires = [
     'pyramid',
     #'pyramid_zcml',
-    #'WebError',
+    'WebError',
     #'Acquisition',
     #'zope.PageTemplate',
     #'gitpython',
