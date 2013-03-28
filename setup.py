@@ -13,6 +13,7 @@ requires = [
     #'Acquisition',
     #'zope.PageTemplate',
     #'gitpython',
+    'zope.component',
     'lxml',
     'diff-match-patch',
     ]
