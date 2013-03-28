@@ -14,7 +14,9 @@ requires = [
     #'zope.PageTemplate',
     #'gitpython',
     'lxml',
+    'diff-match-patch',
     ]
+
 
 setup(name='peixe',
       version='0.0',
