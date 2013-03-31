@@ -31,7 +31,12 @@ fuxi https://code.google.com/p/fuxi/
 
 An introductory paper about Description Logic (DL) http://arxiv.org/pdf/1201.4089v2.pdf
 
-Protege 4.x [tutorial](http://protegewiki.stanford.edu/wiki/Protege4GettingStarted) and a 10 min introduction of [a pizza ontology construction](http://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes)
+Protege 4.x
+[tutorial](http://protegewiki.stanford.edu/wiki/Protege4GettingStarted)
+and a 10 min introduction of
+[a pizza ontology construction](http://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes). Pay
+great attention on inferencing qualities of pizzas according their
+properties definitions and constraints.
 
 
 On-line HTML editors
