@@ -9,13 +9,13 @@
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#"
-     xml:base="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology"
+<rdf:RDF xmlns="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10"/>
     
 
 
@@ -30,17 +30,46 @@
     
 
 
-    <!-- http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#NamedThing -->
+    <!-- http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTDomain_entitySB_RAS -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#NamedThing"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTDomain_entitySB_RAS">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#Person -->
+    <!-- http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTIndependent_entitySB_RAS -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#Person">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/eugeneai/ontologies/2013/2/test_ontology#NamedThing"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTIndependent_entitySB_RAS">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTValueSB_RAS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTValueSB_RAS">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTDomain_entitySB_RAS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTIndependent_entitySB_RAS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/eugeneai/ontologies/2013/2/untitled-ontology-10#ISDCTValueSB_RAS"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
