@@ -22,12 +22,14 @@ https://rdflib.readthedocs.org/en/latest/ and on Wikipedia http://en.wikipedia.o
 
 Divergence from rdflib 3.0 https://code.google.com/p/python-dlp/wiki/LayerCakePythonDivergence
 
-OWL processing
---------------
+Ontologies and OWL processing
+-----------------------------
 
 Wikipedia http://ru.wikipedia.org/wiki/Web_Ontology_Language
 
 fuxi https://code.google.com/p/fuxi/
+
+Lectures in Russian on Ontology basics [Онтологии и тезаурусы: модели, инструменты, приложения](http://www.intuit.ru/department/expert/ontoth/1/).
 
 An introductory paper about Description Logic (DL) http://arxiv.org/pdf/1201.4089v2.pdf
 
