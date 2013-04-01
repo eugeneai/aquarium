@@ -20,3 +20,6 @@ Later we will try to "mine" a relational database structures from the data colle
 "Do not feed a programmer, allow him/her to share his/her plans for the future" (c) Smbdy from Novosibirsk programming school of 1980-ths.
 
 Evgeny
+
+Shortcut links:
+ * [List of potetially useful IT](https://github.com/eugeneai/peixe/blob/master/collection/LIBS.md)
