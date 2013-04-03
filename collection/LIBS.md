@@ -59,3 +59,10 @@ Web site http://www.pylonsproject.org/
 Single file application tutorial http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html
 
 Installation http://docs.pylonsproject.org/en/latest/docs/pyramid_install.html
+
+Russian national standard of Electronic message content
+-------------------------------------------------------
+
+В 2010 г. в России принят национальный стандарт ГОСТ Р 3898-2010
+«Системы электронного документооборота. Взаимодействие систем управления доку-
+ментами. Требования к электронному сообщению»
