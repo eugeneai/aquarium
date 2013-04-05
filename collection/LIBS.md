@@ -72,11 +72,13 @@ Russian national standards
 на РФ от 10.01.2002 N 1-ФЗ «Об электронно-цифровой подписи» и ГОСТа Р ИСО
 9000-2001: «Системы менеджмента качества. Основные положения и словарь».
 
-Automatic text processing, stemming
------------------------------------
+Automatic text processing, stemming, lemmatization
+--------------------------------------------------
 
 АОТ (Автоматическая Обработка Текста) [сайт](http://aot.ru/) разработки программного обеспечения для обработки текстов на русском языке.
 
 Introduction into snowball algorythm is [here](http://snowball.tartarus.org/texts/introduction.html)
 
 Libstemmer, which is basel the snowball algorythm is [here](http://snowball.tartarus.org/download.php).
+
+Lemmatization for Europian languages, including Russian http://lemmatizer.org/
