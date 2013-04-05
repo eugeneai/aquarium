@@ -82,3 +82,8 @@ Introduction into snowball algorythm is [here](http://snowball.tartarus.org/text
 Libstemmer, which is basel the snowball algorythm is [here](http://snowball.tartarus.org/download.php).
 
 Lemmatization for Europian languages, including Russian http://lemmatizer.org/
+
+RESTful Architecture
+--------------------
+
+IBM's [Introduction](http://www.ibm.com/developerworks/webservices/library/ws-restful/).
