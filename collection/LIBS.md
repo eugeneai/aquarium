@@ -22,6 +22,10 @@ https://rdflib.readthedocs.org/en/latest/ and on Wikipedia http://en.wikipedia.o
 
 Divergence from rdflib 3.0 https://code.google.com/p/python-dlp/wiki/LayerCakePythonDivergence
 
+SPARQL Query language [lib](http://sparql-wrapper.sourceforge.net/).
+
+
+
 Ontologies and OWL processing
 -----------------------------
 
@@ -87,3 +91,10 @@ RESTful Architecture
 --------------------
 
 IBM's [Introduction](http://www.ibm.com/developerworks/webservices/library/ws-restful/).
+
+Key-Value storages
+------------------
+
+Kyoto Cabinet (supports REST) is [here](http://fallabs.com/kyotocabinet/). I thik best fit the idea.
+
+Question - ? How to utilise the storage with distributed revision control system?
