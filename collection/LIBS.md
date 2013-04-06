@@ -97,4 +97,6 @@ Key-Value storages
 
 Kyoto Cabinet (supports REST) is [here](http://fallabs.com/kyotocabinet/). I thik best fit the idea.
 
+Goole's [LevelDB](https://code.google.com/p/leveldb/), but it does not support any server features.
+
 Question - ? How to utilise the storage with distributed revision control system?
