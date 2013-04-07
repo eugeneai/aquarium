@@ -63,6 +63,7 @@ WISYWIG editor for HTML http://elrte.org/ It uses jquery and jquery-ui.
 
 Xinha http://trac.xinha.org/
 
+RDFaCE an ontology markup extension of TinyMCE  http://wiki.aksw.org/Projects/RDFaCE.
 
 Pyramid framework
 -----------------
