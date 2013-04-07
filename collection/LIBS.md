@@ -26,6 +26,9 @@ SPARQL Query language [lib](http://sparql-wrapper.sourceforge.net/).
 
 Notation 3 format, i.e., [N3](http://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F_3).
 
+JavaScript [HTML embedded RDFa processing](https://code.google.com/p/rdfquery/).
+
+
 Ontologies and OWL processing
 -----------------------------
 
