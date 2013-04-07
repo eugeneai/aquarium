@@ -53,6 +53,9 @@ Python OWL and its execution environment
 [merge](http://seth-scripting.sourceforge.net/). Very interesting
 agile approach. Allows DL in classes.
 
+
+LIST OF USEFUL ONTOLOGY BASED (SOFTWARE)[http://techwiki.openstructs.org/index.php/Ontology_Tools]
+
 On-line HTML editors
 --------------------
 
