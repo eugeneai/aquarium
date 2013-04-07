@@ -116,3 +116,19 @@ Question - ? How to utilize the storage with distributed revision control system
 Compressing
 -----------
 Google's Snappy [library](https://pypi.python.org/pypi/python-snappy). See a link to Google web site on the page.
+
+
+Ontologies
+----------
+
+GOLD GOLD Community: General Ontology for Linguistic Description
+http://www.linguistics-ontology.org/gold/ - It seems it is enough for us.
+
+ISOCat set of ontologies to represent lexical and other phenomena
+http://www.isocat.org/files/TDGs.html.
+
+Lemon is a proposed model for modeling lexicon and machine-readable
+dictionaries and linked to the Semantic Web and the Linked Data
+cloud. http://www.lemon-model.net/
+
+Multilingual Ontologies for Networked Knowledge http://www.monnet-project.eu/Monnet/Monnet/English?init=true.
