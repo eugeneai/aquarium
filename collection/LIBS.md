@@ -47,6 +47,7 @@ and a 10 min introduction of
 great attention on inferencing qualities of pizzas according their
 properties definitions and constraints.
 
+jOWL - semantic javascript library http://jowl.ontologyonline.org/
 
 On-line HTML editors
 --------------------
