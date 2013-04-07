@@ -56,6 +56,17 @@ agile approach. Allows DL in classes.
 
 LIST OF USEFUL ONTOLOGY BASED (SOFTWARE)[http://techwiki.openstructs.org/index.php/Ontology_Tools]
 
+OntoWiki
+
+
+is a tool providing support for agile, distributed knowledge engineering scenarios.
+
+[OntoWiki](http://ontowiki.net/Projects/OntoWiki) facilitates the
+visual presentation of a knowledge base as an information map, with
+different views on instance data. It enables intuitive authoring of
+semantic content, with an inline editing mode for editing RDF content,
+similar to WYSIWIG for text documents. Now it is on [Github](https://github.com/AKSW/OntoWiki/).
+
 On-line HTML editors
 --------------------
 
