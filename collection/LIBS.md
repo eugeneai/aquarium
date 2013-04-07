@@ -44,7 +44,7 @@ Protege 4.x
 [tutorial](http://protegewiki.stanford.edu/wiki/Protege4GettingStarted)
 and a 10 min introduction of
 [a pizza ontology construction](http://protegewiki.stanford.edu/wiki/Protege4Pizzas10Minutes). Pay
-great attention on inferencing qualities of pizzas according their
+great attention on inferences qualities of pizzas according their
 properties definitions and constraints.
 
 jOWL - semantic javascript library http://jowl.ontologyonline.org/
@@ -59,7 +59,7 @@ LIST OF USEFUL ONTOLOGY BASED (SOFTWARE)[http://techwiki.openstructs.org/index.p
 On-line HTML editors
 --------------------
 
-WISYWIG editor for HTML http://elrte.org/ It uses jquery abd jquery-ui.
+WISYWIG editor for HTML http://elrte.org/ It uses jquery and jquery-ui.
 
 Xinha http://trac.xinha.org/
 
@@ -92,11 +92,11 @@ Automatic text processing, stemming, lemmatization
 
 АОТ (Автоматическая Обработка Текста) [сайт](http://aot.ru/) разработки программного обеспечения для обработки текстов на русском языке.
 
-Introduction into snowball algorythm is [here](http://snowball.tartarus.org/texts/introduction.html)
+Introduction into snowball algorithm is [here](http://snowball.tartarus.org/texts/introduction.html)
 
-Libstemmer, which is basel the snowball algorythm is [here](http://snowball.tartarus.org/download.php).
+Libstemmer, which is based the snowball algorithm is [here](http://snowball.tartarus.org/download.php).
 
-Lemmatization for Europian languages, including Russian http://lemmatizer.org/
+Lemmatization for European languages, including Russian http://lemmatizer.org/
 
 RESTful Architecture
 --------------------
@@ -110,7 +110,7 @@ Kyoto Cabinet (supports REST) is [here](http://fallabs.com/kyotocabinet/). I thi
 
 Goole's [LevelDB](https://code.google.com/p/leveldb/), but it does not support any server features.
 
-Question - ? How to utilise the storage with distributed revision control system?
+Question - ? How to utilize the storage with distributed revision control system?
 
 Compressing
 -----------
