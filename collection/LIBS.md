@@ -49,6 +49,10 @@ properties definitions and constraints.
 
 jOWL - semantic javascript library http://jowl.ontologyonline.org/
 
+Python OWL and its execution environment
+[merge](http://seth-scripting.sourceforge.net/). Very interesting
+agile approach. Allows DL in classes.
+
 On-line HTML editors
 --------------------
 
