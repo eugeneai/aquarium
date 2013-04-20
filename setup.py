@@ -16,6 +16,7 @@ requires = [
     'zope.component',
     'lxml',
     'diff-match-patch',
+    'rdflib',
     ]
 
 
