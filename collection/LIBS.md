@@ -22,12 +22,16 @@ https://rdflib.readthedocs.org/en/latest/ and on Wikipedia http://en.wikipedia.o
 
 Divergence from rdflib 3.0 https://code.google.com/p/python-dlp/wiki/LayerCakePythonDivergence
 
+Redland RDF Libraries http://librdf.org/ (Implemented in C with Python
+bindings). Does it have a server?
+
 SPARQL Query language [lib](http://sparql-wrapper.sourceforge.net/).
 
 Notation 3 format, i.e., [N3](http://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F_3).
 
 JavaScript [HTML embedded RDFa processing](https://code.google.com/p/rdfquery/).
 
+JavaScript library of linkeddata project & TimBL https://github.com/linkeddata/rdflib.js
 
 Ontologies and OWL processing
 -----------------------------
