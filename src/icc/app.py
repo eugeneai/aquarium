@@ -2,18 +2,32 @@ from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
 
-def hello_world(request):
-    return Response('Hello %(name)s! \%(text)s\.' % request.matchdict)
+import rdflib
 
-def view_main(request):
-    return Response('fred')
+g=UNIVERSE=rdflib.Graph()
+g.parse("http://www.w3.org/People/Berners-Lee/card")
+print("graph has %s statements." % len(g))
+
+
+def view_subject(request):
+    subj=request.matchdict['subject']
+    return Response('Subject is %s' % subj)
+
+def view_triple(request):
+    subj=request.matchdict['subject']
+    rel=request.matchdict['relation']
+    ob=request.matchdict['object']
+    return Response('Triple(%s,%s,%s)' % (subj, rel, ob))
 
 if __name__ == '__main__':
     config = Configurator()
-    config.add_route('hello', '/hello/{name}/{text}')
-    config.add_route('index', '/')
-    config.add_view(hello_world, route_name='hello')
-    config.add_view(view_main, route_name='index')
+
+    config.add_route('subject', '/{subject}')
+    config.add_view(view_subject, route_name='subject')
+
+    config.add_route('triple', '/{subject}/{relation}/{object}')
+    config.add_view(view_triple, route_name='triple')
+
     config.add_static_view(name='static', path='icc.www.peixe:/www/static')
     app = config.make_wsgi_app()
     print "Starting server."
