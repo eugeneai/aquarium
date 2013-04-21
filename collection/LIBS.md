@@ -73,6 +73,8 @@ similar to WYSIWIG for text documents. Now it is on [Github](https://github.com/
 
 An ontology set review http://syntheticbiology.org/Semantic_web_ontology/Examples.html Here we can find most commonly used ontologies, such as Dublin Core.
 
+Virtuoso triple storage with fulltext search DEMO http://demo.openlinksw.com/tutorial/
+
 On-line HTML editors
 --------------------
 
