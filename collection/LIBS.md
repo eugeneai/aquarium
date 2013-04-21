@@ -71,6 +71,8 @@ different views on instance data. It enables intuitive authoring of
 semantic content, with an inline editing mode for editing RDF content,
 similar to WYSIWIG for text documents. Now it is on [Github](https://github.com/AKSW/OntoWiki/).
 
+An ontology set review http://syntheticbiology.org/Semantic_web_ontology/Examples.html Here we can find most commonly used ontologies, such as Dublin Core.
+
 On-line HTML editors
 --------------------
 
