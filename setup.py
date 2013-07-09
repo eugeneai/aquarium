@@ -13,16 +13,16 @@ requires = [
     #'Acquisition',
     #'zope.PageTemplate',
     #'gitpython',
-    'zope.component',
+    #'zope.component',
     'lxml',
     'diff-match-patch',
     'rdflib',
     ]
 
 
-setup(name='peixe',
+setup(name='aquarium',
       version='0.0',
-      description='''Ontology based interactive inductive document data propagation engine.''',
+      description='''Ontology based interactive inductive document data editing engine.''',
       long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -41,7 +41,7 @@ setup(name='peixe',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="peixe",
+      test_suite="aquarium",
 #      entry_points = """\
 #      [paste.app_factory]
 #      app = semdoctree.run:app
