@@ -37,10 +37,10 @@ def view_triple(request):
 if __name__ == '__main__':
     config = Configurator()
 
-    config.add_route('subject', '/{subject}')
+    config.add_route('subject', '/q/{subject}')
     config.add_view(view_subject, route_name='subject')
 
-    config.add_route('triple', '/{subject}/{relation}/{object}')
+    config.add_route('triple', '/q/{subject}/{relation}/{object}')
     config.add_view(view_triple, route_name='triple')
 
     config.add_static_view(name='static', path='icc.www.peixe:/www/static')
