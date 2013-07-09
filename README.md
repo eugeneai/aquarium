@@ -23,3 +23,22 @@ Evgeny
 
 Shortcut links:
  * [List of potetially useful IT](https://github.com/eugeneai/peixe/blob/master/collection/LIBS.md)
+
+
+Temporel documentation chunks
+-----------------------------
+
+To setup run in a virtual environment
+
+    /<virtual env dir>/bin/python2 setup.py develop
+
+To run uWSGI instance in ubuntu
+
+    uwsgi_python --ini-paste deployment.ini
+
+
+and point your browser (now the application is a stub, it dows nothing):
+
+    http://<server or ip>:6543/p/a
+
+
