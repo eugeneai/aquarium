@@ -25,7 +25,7 @@ Shortcut links:
  * [List of potetially useful IT](https://github.com/eugeneai/peixe/blob/master/collection/LIBS.md)
 
 
-Temporel documentation chunks
+Temporal documentation chunks
 -----------------------------
 
 To setup run in a virtual environment
@@ -37,7 +37,7 @@ To run uWSGI instance in ubuntu
     uwsgi_python --ini-paste deployment.ini
 
 
-and point your browser (now the application is a stub, it dows nothing):
+and point your browser (now the application is a stub, it does nothing):
 
     http://<server or ip>:6543/p/a
 
