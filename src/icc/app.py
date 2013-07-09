@@ -8,6 +8,8 @@ from pyramid.renderers import render_to_response
 
 import rdflib
 
+""" # commented out temporarly
+
 UNIVERSE=rdflib.Graph()
 CACHE_NAME='card.n3'
 
@@ -27,6 +29,7 @@ def universe_setup(g):
 
 universe_setup(UNIVERSE)
 
+"""
 
 def view_subject(request):
     subj=request.matchdict['subject']
