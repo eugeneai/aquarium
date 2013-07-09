@@ -45,8 +45,14 @@ def view_triple(request):
     ob=request.matchdict['object']
     return Response('Triple(%s,%s,%s)' % (subj, rel, ob))
 
-if __name__ == '__main__':
-    config = Configurator()
+
+def main(global_config=None, **settings):
+    """ This function returns a Pyramid WSGI application.
+    """
+    config = Configurator(settings=settings)
+    #config.add_static_view('static', 'static', cache_max_age=3600)
+    #config.add_route('home', '/')
+    #config.scan()
 
     config.add_route('subject', '/q/{subject}')
     config.add_view(view_subject, route_name='subject')
@@ -55,9 +61,11 @@ if __name__ == '__main__':
     config.add_view(view_triple, route_name='triple')
 
     config.add_static_view(name='static', path='icc.www.peixe:/www/static')
-    app = config.make_wsgi_app()
+    return config.make_wsgi_app()
+
+if __name__=="__main__":
     print "Starting server."
-    server = make_server('0.0.0.0', 8080, app)
+    server = make_server('0.0.0.0', 8080, main())
     try:
         server.serve_forever()
     except KeyboardInterrupt:

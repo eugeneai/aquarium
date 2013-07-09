@@ -8,6 +8,8 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
     'pyramid',
+    'pyramid_debugtoolbar',
+    'waitress',
     #'pyramid_zcml',
     'WebError',
     #'Acquisition',
@@ -19,6 +21,7 @@ requires = [
     'rdflib',
     ]
 
+print "asdasd"
 
 setup(name='aquarium',
       version='0.0',
@@ -42,8 +45,8 @@ setup(name='aquarium',
       install_requires=requires,
       tests_require=requires,
       test_suite="aquarium",
-#      entry_points = """\
-#      [paste.app_factory]
-#      app = semdoctree.run:app
-#      """
+      entry_points = """\
+      [paste.app_factory]
+      main = icc.app:main
+      """
       )
