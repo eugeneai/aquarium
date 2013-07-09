@@ -1,6 +1,10 @@
+# encoding: utf-8
+
 from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
+
+from pyramid.renderers import render_to_response
 
 import rdflib
 
@@ -26,7 +30,14 @@ universe_setup(UNIVERSE)
 
 def view_subject(request):
     subj=request.matchdict['subject']
-    return Response('Subject is %s' % subj)
+    model=None
+    # return Response('Subject is %s' % subj)
+    #d={"a":1, "b":2}
+    #print d.__getitem__(u'a')
+    return render_to_response('/home/aqua/aquarium/src/icc/www/peixe/www/static/main.pt',
+                              {'context':subj, 'model':model, 'view':None,
+                               'title':u'Супер-пупер программа',},
+                              request=request)
 
 def view_triple(request):
     subj=request.matchdict['subject']
