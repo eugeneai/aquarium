@@ -1,7 +1,7 @@
-The peixe project
-=================
+The Aquarium Project
+====================
 
-(The web page is at http://eugeneai.github.com/peixe/)
+(The web page is at http://eugeneai.github.com/aquarium/)
 
 Already so tired of filling in various document papers... Why not fill the in a forms and just print and sign. Or... save their field content in a database or QR-code? Later the data can be used again.
 
@@ -22,7 +22,7 @@ Later we will try to "mine" a relational database structures from the data colle
 Evgeny
 
 Shortcut links:
- * [List of potetially useful IT](https://github.com/eugeneai/peixe/blob/master/collection/LIBS.md)
+ * [List of potetially useful IT](https://github.com/eugeneai/aquarium/blob/master/collection/LIBS.md)
 
 
 Temporal documentation chunks
