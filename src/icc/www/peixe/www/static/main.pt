@@ -23,9 +23,6 @@ Released   : 20130428
 <![endif]-->
 </head>
 <body>
-<div id="logo" class="container">
-	<h1><a href="#" tal:content="title">Doubtless</a></h1>
-</div>
 <div id="menu-wrapper">
 	<div id="menu" class="container">
 		<ul>
@@ -39,7 +36,9 @@ Released   : 20130428
 		</ul>
 	</div>
 </div>
-
+<div id="logo" class="container" tal:condition="title">
+	<h1><a href="#" tal:content="title | default">Doubtless</a></h1>
+</div>
 	<div id="sidebar">
 		<h2>Phasellus dapibus</h2>
 		<ul class="style1">

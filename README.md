@@ -40,5 +40,3 @@ To run uWSGI instance in ubuntu
 and point your browser (now the application is a stub, it does nothing):
 
     http://<server or ip>:6543/p/a
-
-
