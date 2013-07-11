@@ -86,7 +86,7 @@ def main(global_config=None, **settings):
     return config.make_wsgi_app()
 
 if __name__=="__main__":
-    print "Starting server."
+    print "Starting server at 0.0.0.0:8080."
     server = make_server('0.0.0.0', 8080, main())
     try:
         server.serve_forever()
