@@ -19,6 +19,7 @@ requires = [
     'lxml',
     'diff-match-patch',
     'rdflib',
+    'rdflib-kyotocabinet',
     ]
 
 print "asdasd"
