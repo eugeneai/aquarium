@@ -1,26 +1,18 @@
 import rdflib
+import rdflib.store as store
 
-def test():
-    UNIVERSE=rdflib.Graph()
-    CACHE_NAME='card.n3'
+def test(store='default'):
+    ident = rdflib.URIRef("rdflib_test")
+    g=UNIVERSE=rdflib.Graph(store=store, identifier=ident)
+    g.open("/home/aqua/aquarium/DATA/test.kch", create=True)
 
-    def universe_setup(g):
+    if len(g)==0:
+        g.parse("http://www.w3.org/People/Berners-Lee/card")
+        print "A graph has been obtained and loaded."
 
-        try:
-            cf=open(CACHE_NAME)
-            g.parse(cf, format='n3')
-        except IOError:
-            g.parse("http://www.w3.org/People/Berners-Lee/card")
-            s = g.serialize(format='n3')
-            cf=open(CACHE_NAME, 'w')
-            cf.write(s)
-            cf.close()
-
-        print("graph has %s statements." % len(g))
-
-    universe_setup(UNIVERSE)
-
+    print("graph has %s statements." % len(g))
+    g.close()
 
 
 if __name__=="__main__":
-    test()
+    test('KyotoCabinet')
