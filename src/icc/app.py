@@ -68,3 +68,37 @@ if __name__=="__main__":
     except KeyboardInterrupt:
         server.server_close()
         print "KeyboardInterrupt, closed."
+
+
+"""
+On 27 November 2012 07:58, Chris Withers <ch...@simplistix.co.uk> wrote:
+> How can I get back the old ZPT style of path expression?
+>
+> eg:
+>
+> <html metal:use-macro="view/macros/page">
+>
+> ...would unpack and do the view.macros['page'] for me?
+
+I have adapted this code from the path implementation in `z3c.pt`:
+
+    https://gist.github.com/4153332
+
+You would have to add the expression type to the existing dict:
+
+from chameleon.zpt.template import PageTemplate
+from chameleon.zpt.loader import TemplateLoader
+
+expression_types = PageTemplate.expression_types.copy()
+expression_types['path'] = PathExpr()
+
+loader = TemplateLoader(
+   "path/to/templates",
+   expression_types=expression_types,
+   default_expression="path"
+)
+
+Please don't hesitate to ask if you need more than this.
+
+\malthe
+"""
