@@ -41,3 +41,6 @@ python2*/
 /sandbox/tasks/tasks.db
 /src/icc/card.n3
 DATA/
+\#*
+.#*
+sandbox/
