@@ -1,10 +1,11 @@
+#!/usr/bin/env python
 import rdflib
 import rdflib.store as store
 
 def test(store='default'):
     ident = rdflib.URIRef("rdflib_test")
     g=rdflib.Graph(store=store, identifier=ident)
-    g.open("/home/aqua/aquarium/DATA/test.kch", create=True)
+    g.open("../../DATA/test.kch", create=True)
 
     if len(g)==0:
         g.parse("http://www.w3.org/People/Berners-Lee/card")
