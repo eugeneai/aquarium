@@ -19,6 +19,7 @@ requires = [
     'lxml',
     'diff-match-patch',
     'rdflib',
+    'pyramid_chameleon',
     'rdflib-kyotocabinet',
     ]
 

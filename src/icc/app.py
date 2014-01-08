@@ -46,6 +46,7 @@ def main(global_config=None, **settings):
     #config.add_route('home', '/')
     #config.scan()
 
+    config.include('pyramid_chameleon')
     config.add_route('home_page', '/')
     config.add_view(view_home_page, route_name='home_page')
 
