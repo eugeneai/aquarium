@@ -30,13 +30,24 @@ Temporal documentation chunks
 
 To setup run in a virtual environment
 
-    /<virtual env dir>/bin/python2 setup.py develop
+    .../<virtual env dir>/bin/python2 setup.py develop
+
+and run it with pserve:
+
+    .../<virtual env dir>/bin//bin/pserve deployment.ini
 
 To run uWSGI instance in ubuntu
 
     uwsgi_python --ini-paste deployment.ini
 
+the same in Arch Linux (Does not work now)
 
 and point your browser (now the application is a stub, it does nothing):
 
-    http://<server or ip>:6543/p/a
+    http://<server or ip or 127.0.0.1>:6543/
+
+e.g.
+
+    http://127.0.0.1:6543/
+
+But it is not useful now. Sorry.
