@@ -70,6 +70,7 @@ class StoreTestCase(unittest.TestCase):
                 res = self._testInput(inputloc)
                 print("%s," % res.strip())
             print("],")
+            self.graph.commit()
         cnt=0
         for s,r,o in self.graph:
             cnt+=1
@@ -91,9 +92,10 @@ class StoreTestCase(unittest.TestCase):
 
 class KyotoCabinetStoreTestCase(StoreTestCase):
     store = "KyotoCabinet"
+    store = "Sleepycat"
     def setUp(self):
-        self.store = "KyotoCabinet"
-        self.path = '/tmp/test-kyotocabinet'
+        self.store = self.store
+        self.path = '/tmp/test-'+self.store
         StoreTestCase.setUp(self)
 
 
