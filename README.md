@@ -50,7 +50,10 @@ To run uWSGI instance in ubuntu
 
     uwsgi_python --ini-paste deployment.ini
 
-the same in Arch Linux (Does not work now)
+the same in Arch Linux (Does not work now. It says, that the socket is
+not defined.)
+
+    uwsgi_python2 --ini-paste deployment.ini
 
 and point your browser (now the application is a stub, it does nothing):
 
