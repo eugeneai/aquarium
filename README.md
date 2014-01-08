@@ -28,13 +28,23 @@ Shortcut links:
 Temporal documentation chunks
 -----------------------------
 
-To setup run in a virtual environment
+Before the installation a python-2.7 virtual evnironment should be set
+up in the apckage directory, e.g.
 
-    .../<virtual env dir>/bin/python2 setup.py develop
+    virtualenv-2.7 python2
+
+and, optionally, run
+
+    . python2/bin/activate
+
+
+To setup run in the virtual environment
+
+    python2/bin/python2 setup.py develop
 
 and run it with pserve:
 
-    .../<virtual env dir>/bin//bin/pserve deployment.ini
+    python2/bin/pserve deployment.ini
 
 To run uWSGI instance in ubuntu
 
@@ -44,7 +54,7 @@ the same in Arch Linux (Does not work now)
 
 and point your browser (now the application is a stub, it does nothing):
 
-    http://<server or ip or 127.0.0.1>:6543/
+    http://<server name or ip or 127.0.0.1>:6543/
 
 e.g.
 
