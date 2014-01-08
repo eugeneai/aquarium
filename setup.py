@@ -45,6 +45,10 @@ setup(name='aquarium',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
+      dependency_links = [
+          'https://github.com/eugeneai/rdflib-kyotocabinet/tarball/master#egg=rdflib-kyotocabinet-0.0.1',
+          'http://fallabs.com/kyotocabinet/pythonlegacypkg/kyotocabinet-python-legacy-1.18.tar.gz#egg=Kyoto-Cabinet-1.18'
+      ],
       test_suite="aquarium",
       entry_points = """\
       [paste.app_factory]
