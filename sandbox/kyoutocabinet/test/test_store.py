@@ -27,7 +27,7 @@ class StoreTestCase(unittest.TestCase):
         gc.collect()
         gc.disable()
 
-        self.graph = Graph(store=self.store)
+        self.graph = Graph(store=self.store, identifier='main')
         if not self.path:
             path = mkdtemp()
         else:
