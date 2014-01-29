@@ -1,5 +1,6 @@
 import rdflib
 from rdflib.graph import ConjunctiveGraph as Graph
+#from rdflib.graph import Graph
 
 configString = "/tmp/rdfstore12"
 

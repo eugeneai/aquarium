@@ -60,7 +60,7 @@ class StoreTestCase(unittest.TestCase):
     def testTime(self):
         # number = 1
         if self.exists:
-            print("Graph does exists. Do not import anything.")
+            print("Graph does exist. Do not import anything.")
         else:
             print('"%s": [' % self.store)
             for i in ['500triples', '1ktriples', '2ktriples',
@@ -74,7 +74,7 @@ class StoreTestCase(unittest.TestCase):
         cnt=0
         for s,r,o in self.graph:
             cnt+=1
-        print("Count of triplets:%d" % cnt)
+        print("Count of triples:%d" % cnt)
 
     def _testInput(self, inputloc):
         number = 1
