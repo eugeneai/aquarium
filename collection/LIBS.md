@@ -165,6 +165,19 @@ provides a Semantic Web ontology for representing rich data from the
 Social Web in RDF (Can be used to describe syndication of WEB-sites).
 http://www.sioc-project.org/
 
+DOLCE: a Descriptive Ontology for Linguistic and Cognitive Engineering (an Upper ontology)
+http://www.loa.istc.cnr.it/DOLCE.html
+
+ROCore (Mereological ontology related to biology, but intended to be
+independent of it)
+https://code.google.com/p/obo-relations/wiki/ROCore
+
+Standard Upper Ontology Working Group (SUO WG)
+http://suo.ieee.org/
+
+Simple part-whole relations in OWL Ontologies
+http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/
+
 Ontologies that definitely to be used in the project
 ----------------------------------------------------
 
