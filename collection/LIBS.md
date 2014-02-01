@@ -151,3 +151,20 @@ dictionaries and linked to the Semantic Web and the Linked Data
 cloud. http://www.lemon-model.net/
 
 Multilingual Ontologies for Networked Knowledge http://www.monnet-project.eu/Monnet/Monnet/English?init=true.
+
+SKOS Core provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies.
+http://www.w3.org/TR/2005/WD-swbp-skos-core-guide-20051102/
+
+Ontologies that definitely to be used in the project
+----------------------------------------------------
+
+RDF Vocabulary Description Language 1.0: RDF Schema (METADATA, e.g., notions of properties)
+http://www.w3.org/TR/2004/REC-rdf-schema-20040210/
+
+The Friend of a Friend (FOAF) project (Useful in presentation of a Person) 
+http://www.foaf-project.org/
+
+Describing Copyright in RDF
+http://creativecommons.org/ns
+
+
