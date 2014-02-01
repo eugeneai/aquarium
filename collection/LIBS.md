@@ -152,8 +152,18 @@ cloud. http://www.lemon-model.net/
 
 Multilingual Ontologies for Networked Knowledge http://www.monnet-project.eu/Monnet/Monnet/English?init=true.
 
-SKOS Core provides a model for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies.
-http://www.w3.org/TR/2005/WD-swbp-skos-core-guide-20051102/
+AtomOwl is an ontology whose aim is to capture the semantics of
+rfc4287. RFC4287 is a format to syndicate online content, such as
+weblogs, podcasts, videocasts, etc. Syndication is a helpful way to
+alert interested readers to changes to a web site, be it to new
+content or changed content. (Can be used to describe pushed content)
+http://bblfish.net/work/atom-owl/2006-06-06/AtomOwl.html
+
+The SIOC initiative (Semantically-Interlinked Online Communities) aims
+to enable the integration of online community information. SIOC
+provides a Semantic Web ontology for representing rich data from the
+Social Web in RDF (Can be used to describe syndication of WEB-sites).
+http://www.sioc-project.org/
 
 Ontologies that definitely to be used in the project
 ----------------------------------------------------
@@ -161,10 +171,25 @@ Ontologies that definitely to be used in the project
 RDF Vocabulary Description Language 1.0: RDF Schema (METADATA, e.g., notions of properties)
 http://www.w3.org/TR/2004/REC-rdf-schema-20040210/
 
-The Friend of a Friend (FOAF) project (Useful in presentation of a Person) 
+The Friend of a Friend (FOAF) project (Useful in presentation of a Person)
 http://www.foaf-project.org/
 
 Describing Copyright in RDF
 http://creativecommons.org/ns
 
+SKOS Core provides a model for expressing the basic structure and
+content of concept schemes such as thesauri, classification schemes,
+subject heading lists, taxonomies, 'folksonomies', other types of
+controlled vocabulary, and also concept schemes embedded in glossaries
+and terminologies. (It is useful in Concept definition and its labeling)
+http://www.w3.org/TR/2005/WD-swbp-skos-core-guide-20051102/
 
+DCMI Home: Dublin Core&reg; Metadata Initiative (DCMI) (Used to
+describe metadata about a document, e.g., creator, validity time period)
+http://dublincore.org/
+Also OpenSource Metadata Framework (OMF) Specification (based on DC)
+http://www.ibiblio.org/osrt/omf/omf_elements
+
+RDF Site Summary 1.0 Modules: Content (Used to introduce html pages
+as objects)
+http://web.resource.org/rss/1.0/modules/content/
