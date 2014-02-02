@@ -208,4 +208,6 @@ as objects)
 http://web.resource.org/rss/1.0/modules/content/
 
 The Organization Ontology (to describe organizations)
-http://www.w3.org/TR/2014/REC-vocab-org-20140116/
+http://www.w3.org/TR/2014/REC-vocab-org-20140116/ And its
+implementations and extensions
+http://www.w3.org/2011/gld/wiki/ORG_Implementations
