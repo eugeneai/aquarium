@@ -185,7 +185,7 @@ RDF Vocabulary Description Language 1.0: RDF Schema (METADATA, e.g., notions of 
 http://www.w3.org/TR/2004/REC-rdf-schema-20040210/
 
 The Friend of a Friend (FOAF) project (Useful in presentation of a Person)
-http://www.foaf-project.org/
+http://www.foaf-project.org/ Vcard (is it necessary?) http://www.w3.org/TR/vcard-rdf/
 
 Describing Copyright in RDF
 http://creativecommons.org/ns
@@ -206,3 +206,6 @@ http://www.ibiblio.org/osrt/omf/omf_elements
 RDF Site Summary 1.0 Modules: Content (Used to introduce html pages
 as objects)
 http://web.resource.org/rss/1.0/modules/content/
+
+The Organization Ontology (to describe organizations)
+http://www.w3.org/TR/2014/REC-vocab-org-20140116/
